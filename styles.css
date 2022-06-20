@@ -14,24 +14,24 @@
 
 body {
     font-family: 'Cambria', sans-serif;
-    background-image: url("https://cdn.pixabay.com/photo/2021/02/18/12/03/people-6027028_960_720.jpg");
-    background-size: cover;
+    background-image: url(img/cool-background.png);
     width: 100%;
     height: auto;
-    background-color: #45b6eb;
-    color: e68d08;
+    color: #FDD835;
     font-size: 1.2vw;
+
 }
 
 #survey-form {
-    background-color: #4bd88a5d;
+    background-color: #13a3a375;
     padding: 3rem 2.5rem;
     border-radius: 7px;
+    margin-bottom: 50px;
 }
 
 #submit {
     background: #3a5bc0;
-    color: #fff;
+    color: #FDD835;
     padding: .8rem;
     cursor: pointer;
     font-size: 1.20rem;
@@ -67,6 +67,13 @@ body {
 
 #main {
     padding: 0% 20% 0% 20%;
+}
+
+#textarea {
+  position: relative;
+  
+  text-align: center;
+
 }
 
 @media only screen and (max-width:480px) {
